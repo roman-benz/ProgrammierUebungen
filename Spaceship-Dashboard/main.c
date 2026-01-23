@@ -20,10 +20,12 @@ int main(void)
     printf("Missionstage: ");
     scanf("%d", &Missionstage);
 
+    //Absatze zur Trennung
     printf("\n");
     printf("\n");
     printf("\n");
 
+    //Ausgabe des Dashboards
     printf("Raumschiff-Dashboard\n");
     printf("====================\n\n");
     printf("%-35s %s\n", "Schiffsklasse", Schiffsklasse);
