@@ -1,15 +1,29 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-char Schiffsklasse[] = "Peter II";
-int AnzahlBesatzung = 234;
-int Missionstage = 3726;
+char Schiffsklasse[25];
+int AnzahlBesatzung;
+int Missionstage;
 long long int TripToDate = 476346739467;
 float PartLightspeed = 34.6;
 float Reichweite = 653456364.546;
 
 int main(void)
 {
+    //Starting User Input
+    printf("Schiffsklase eingeben: ");
+    scanf("%s", &Schiffsklasse);
+
+    printf("Anazahl der Besatzung: ");
+    scanf("%d", &AnzahlBesatzung);
+
+    printf("Missionstage: ");
+    scanf("%d", &Missionstage);
+
+    printf("\n");
+    printf("\n");
+    printf("\n");
+
     printf("Raumschiff-Dashboard\n");
     printf("====================\n\n");
     printf("%-35s %s\n", "Schiffsklasse", Schiffsklasse);
