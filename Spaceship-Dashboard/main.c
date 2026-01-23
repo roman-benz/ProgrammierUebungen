@@ -24,6 +24,7 @@ int main(void)
     printf("\n");
     printf("\n");
 
+    //Ausgabe des Dashboards
     printf("Raumschiff-Dashboard\n");
     printf("====================\n\n");
     printf("%-35s %s\n", "Schiffsklasse", Schiffsklasse);
