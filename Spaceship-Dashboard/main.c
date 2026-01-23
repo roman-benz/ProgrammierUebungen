@@ -32,5 +32,6 @@ int main(void)
     printf("%-35s %lld\n", "Gereiste Kilometer", TripToDate);
     printf("%-35s %.2f%%\n", "Anteil Lichtgeschwindigkeit", PartLightspeed);
     printf("%-35s %.2f km\n", "Reichweite", Reichweite);
+    printf("Ende der Ausgabe");
 
 }   
