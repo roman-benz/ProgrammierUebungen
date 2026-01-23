@@ -20,6 +20,7 @@ int main(void)
     printf("Missionstage: ");
     scanf("%d", &Missionstage);
 
+    //Absatze zur Trennung
     printf("\n");
     printf("\n");
     printf("\n");
