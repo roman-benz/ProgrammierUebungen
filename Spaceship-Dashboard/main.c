@@ -12,13 +12,13 @@ int main(void)
 {
     //Starting User Input
     printf("Schiffsklase eingeben: ");
-    scanf("%25c\n", &Schiffsklasse);
+    scanf("%s", &Schiffsklasse);
 
     printf("Anazahl der Besatzung: ");
-    scanf("%25d\n", AnzahlBesatzung);
+    scanf("%d", &AnzahlBesatzung);
 
     printf("Missionstage: ");
-    scanf("%25d\n", Missionstage);
+    scanf("%d", &Missionstage);
 
     printf("\n");
     printf("\n");
